@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/add.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>add</title>
+</head>
+<body>
+<header class="title">
+    <div class="top_back">
+        <!--<a href="main.html"><button type="button" class="top_button" id="bt_back">
+            <img src="../icons/back.png" alt="" class="topbar_icons">
+        </button></a>-->
+    </div>
+    <div class="top_text">失物招领统计</div>
+    <div class="top_refresh">
+        <button type="button" class="top_button" id="bt_refresh">
+            <img src="../icons/arrow.png" alt="" class="topbar_icons">
+        </button>
+    </div>
+</header>
+<div class="full_big"></div>
+<div class="full_big"></div>
+<section id="form" class="container">
+    <form action="" method="post" role="form">
+        <div class="input-group input-group-sm">
+            <label class="input-group-addon" for="type">遗/拾:</label>
+            <select name="type" id="type" class="form-control">
+                <option value="遗失" selected>遗失</option>
+                <option value="拾取">拾取</option>
+            </select>
+        </div>
+
+        <div class="full_big"></div>
+        <div class="input-group input-group-sm">
+            <label class="input-group-addon" for="place">标题:</label>
+            <input type="text" id="name" name="place" class="form-control" placeholder="请输入标题" required>
+        </div>
+        <div class="full_big"></div>
+        <div class="input-group input-group-sm">
+            <label class="input-group-addon" for="time">时间:</label>
+            <input type="date" id="time" name="time" class="form-control" placeholder="请选择时间" required>
+        </div>
+        <div class="full_big"></div>
+        <div class="input-group input-group-sm">
+            <label class="input-group-addon" for="place">地点:</label>
+            <input type="text" id="place" name="place" class="form-control" placeholder="请输入地点" required>
+        </div>
+        <div class="full_big"></div>
+        <div class="input-group input-group-sm">
+            <label class="input-group-addon" for="tel">电话:</label>
+            <input type="tel" id="tel" name="tel" class="form-control" placeholder="请输入电话号码" required>
+        </div>
+        <div class="full_big"></div>
+        <div class="input-group input-group-sm">
+            <p><label for="img">请选择图片:</label></p>
+            <p><input type="file" id="img" name="img" class="form-control"></p>
+        </div>
+        <div class="full_big"></div>
+        <button id="submit" type="submit" class="btn btn-lg col-xs-4 col-xs-offset-4">提交</button>
+    </form>
+</section>
+<div class="full_big"></div>
+<div class="full_big"></div>
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+        <ul class="nav nav-pills"  role="tablist">
+            <li role="presentation" class="active"><a href="list.html">遗失</a></li>
+            <li role="presentation" class="active"><a href="list.html">拾取</a></li>
+            <li role="presentation" class="active"><a href="add.html">发布</a></li>
+        </ul>
+    </div>
+</nav>
+</body>
+</html>

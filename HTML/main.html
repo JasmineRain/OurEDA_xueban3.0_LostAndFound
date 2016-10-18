@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>InformationCollect</title>
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+</head>
+<body>
+<header class="title">
+    <div class="top_back">
+        <!--<button type="button" class="top_button" id="bt_back">
+            <img src="../icons/back.png" alt="" class="topbar_icons">
+        </button>-->
+    </div>
+    <div class="top_text">
+            已有信息
+    </div>
+    <div class="top_refresh">
+        <button type="button" class="top_button" id="bt_refresh">
+            <img src="../icons/arrow.png" alt="" class="topbar_icons">
+        </button>
+    </div>
+</header>
+<div class="full_big"></div>
+<div class="full_big"></div>
+<div class="container">
+    <!--遗失/拾取信息目录   每有一项数据即添加一个div，物品信息展示栏的标题id="info_title" 种类 "category" 时间 "time" 地点 "place" -->
+    <div class="item">
+        <div class="full_small"></div>
+        <div class="info"><a href="infomation.html">
+            <div class="word_big" id="info_title">
+                &nbsp;标题
+            </div>
+            <p class="word_small" id="category">
+                &nbsp;&nbsp;遗/拾：&nbsp;<span>xxxx</span>
+            </p>
+            <p class="word_small" id="time">
+                &nbsp;&nbsp;遗/拾时间：&nbsp;<span>xxxx</span>
+            </p>
+            <p class="word_small" id="place">
+                &nbsp;&nbsp;遗/拾地点：&nbsp;<span>xxxx</span>
+            </p>
+            <p class="word_small" id="put_time">
+                &nbsp;&nbsp;发布时间：&nbsp;<span>xxxx</span>
+            </p>
+        </a></div>
+    </div>
+    <div class="item">
+        <div class="full_small"></div>
+        <div class="info"><a href="infomation.html">
+            <div class="word_big">
+                &nbsp;标题
+            </div>
+            <p class="word_small">
+                &nbsp;&nbsp;遗/拾：&nbsp;<span>xxxx</span>
+            </p>
+            <p class="word_small">
+                &nbsp;&nbsp;遗/拾时间：&nbsp;<span>xxxx</span>
+            </p>
+            <p class="word_small">
+                &nbsp;&nbsp;遗/拾地点：&nbsp;<span>xxxx</span>
+            </p>
+            <p class="word_small">
+                &nbsp;&nbsp;发布时间：&nbsp;<span>xxxx</span>
+            </p>
+        </a></div>
+    </div>
+    <div class="item">
+        <div class="full_small"></div>
+        <div class="info"><a href="infomation.html">
+            <div class="word_big">
+                &nbsp;标题
+            </div>
+            <p class="word_small">
+                &nbsp;&nbsp;遗/拾：&nbsp;<span>xxxx</span>
+            </p>
+            <p class="word_small">
+                &nbsp;&nbsp;遗/拾时间：&nbsp;<span>xxxx</span>
+            </p>
+            <p class="word_small">
+                &nbsp;&nbsp;遗/拾地点：&nbsp;<span>xxxx</span>
+            </p>
+            <p class="word_small">
+                &nbsp;&nbsp;发布时间：&nbsp;<span>xxxx</span>
+            </p>
+        </a></div>
+    </div>
+</div>
+<div class="full_big"></div>
+<div class="full_big"></div>
+<button type="button" class="btn btn-primary btn-lg btn-block" id="nextpage">下一页</button>
+<div class="full_big"></div>
+<div class="full_big"></div>
+<input type="file" name="file">
+<div class="full_big"></div>
+<div class="full_big"></div>
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+        <ul class="nav nav-pills"  role="tablist">
+            <li role="presentation" class="active"><a href="list.html">遗失</a></li>
+            <li role="presentation" class="active"><a href="list.html">拾取</a></li>
+            <li role="presentation" class="active"><a href="add.html">发布</a></li>
+        </ul>
+    </div>
+</nav>
+
+</body>
+</html>
